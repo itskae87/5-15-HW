@@ -1,26 +1,46 @@
-var flower = 'daisy';
-if( flower === 'calla') {
-    console.log('you are not a daisy');
-}
-else if (flower == 'daffodil') {
-    console.log('i am not a daisy');
-}
-else if (flower == 'tulip') {
-    console.log('try again');
-}
-else if (flower == 'daisy') {
-    console.log('ding ding you are a daisy');
-}
-else {
-    console.log('wrong season! winter is coming');
-}
-function Jesus() {
-    var Title = Math.floor(Math.random()*4);
-    var expression = Math.floor(Math.random()*4);
-    var T1 = ['Christ', 'Lord', 'Son of God', 'Almighty One'];
-    var E1 = ['Manna', 'Bread of Life', 'Lamb', 'Shephard'];
-    var God = T1[Title] + ' ' + E1[expression];
-    console.log(God);
-}
-Jesus();
+function fireME() {
+    console.log('what am i?');
+    
+    var a = 'juicy';
+    if (a == 'juicy') {
+        console.log('i am a combination of artificial flavors - sometimes cinnamon-ish, sometimes citrus-cy');
+    }
+    else{
+        console.log('you get nothing');
+    }
+    
+    console.log('if you lack dental hygiene, i can provide you a with a pepperminty smell');
+    
+    var b = 'color';
+    if (b == 'color') {
+        console.log('i come in many colors like the rainbow');
+    }
+    else{
+        console.log('ka is asian');
+    }
+    
+    var c = 'morning';
+    if (c == 'morning') {
+        console.log('you chew me in the morning, refresh me in the afternoon');
+    }
+    else{
+        console.log('skittle taste the rainbow');
+    }
+    
+    var d = 'me';
+    if(d == 'me') {
+        console.log('if you step on me I will');
+    }
+    
+    var e = 'try';
+    if(e == 'try') {
+        console.log('STUCK ON YOU in the song of lionel richie');
+    }
+    
+    var f = 'eh';
+    if(f=='eh') {
+        console.log('what am i');
+    }}
+    
+    fireME();
 
